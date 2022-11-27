@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pizza-admin.css">
+    <title>Pizza-admin</title>
+</head>
+<body>
+    
+    <header id="header">
+        <a id="logo" href="">Pizzaria do João</a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="">Pedidos</a></li>
+            <li><a href="cadastro.html" style="color: rgb(255, 16, 16);">Sair</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main-pizza">
+        <div class="dashboard">
+            <h1>Dashboard</h1>
+            <img src="imagens/dashboard.png" class="left-login-image" alt="">
+        </div>
+        <div class="tabela">
+            <h1>Pedidos</h1>
+            <table border="1" width="600" id="tabela-pizza" style="border-radius: 10px;">
+                <tr style="border-radius: 10px;">
+                    <td style="border-radius: 20px;text-align: center;font-weight: 800;">Id</td>
+                    <td style="border-radius: 20px;text-align: center;font-weight: 800;">Nome</td>
+                    <td style="border-radius: 20px;text-align: center;font-weight: 800;">Pizza</td>
+                    <td style="border-radius: 20px;text-align: center;font-weight: 800;">Confirmar pedido</td>
+                </tr>
+                <tr >
+                    <td style="border-radius: 20px;text-align: center;">123</td>
+                    <td style="border-radius: 20px;text-align: center;">Usuario1</td>
+                    <td style="border-radius: 20px;text-align: center;">Massa/Borda/Sabor</td>
+                    <td style="border-radius: 20px;text-align: center;">Sim/Nao</td>
+                </tr>
+                <tr>
+                    <td style="border-radius: 20px;text-align: center;">142</td>
+                    <td style="border-radius: 20px;text-align: center;">Usuario2</td>
+                    <td style="border-radius: 20px;text-align: center;">Massa/Borda/Sabor</td>
+                    <td style="border-radius: 20px;text-align: center;">Sim/Nao</td>
+                </tr>
+                <tr>
+                    <td style="border-radius: 20px;text-align: center;">192</td>
+                    <td style="border-radius: 20px;text-align: center;">Usuario3</td>
+                    <td style="border-radius: 20px;text-align: center;">Massa/Borda/Sabor</td>
+                    <td style="border-radius: 20px;text-align: center;">Sim/Nao</td>
+                </tr>
+                <tr>
+                    <td style="border-radius: 20px;text-align: center;">146</td>
+                    <td style="border-radius: 20px;text-align: center;">Usuario4</td>
+                    <td style="border-radius: 20px; text-align: center;">Massa/Borda/Sabor</td>
+                    <td style="border-radius: 20px; text-align: center;">Sim/Nao</td>
+                </tr>
+            </table>
+        </div>
+      </div>
+
+      <script src="./js/script.js"></script>
+</body>
+</html>

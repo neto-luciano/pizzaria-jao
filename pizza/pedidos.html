@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pedidos.css">
+    <title>pedidos-pizza</title>
+</head>
+
+<body>
+    
+        
+    <header id="header">
+        <a id="logo" href="">Pizzaria do João</a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="">Pedidos</a></li>
+            <li><a href="entrar.html" style="color: rgb(255, 16, 16);">Sair</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <div class="main-login">
+        <form action="registro.php" method="POST">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>FAZER PEDIDO</h1>
+                    <div class="textfield">
+                        <label for="usuario">Massa</label>
+                        <input list="lista-massa" name="user" placeholder="Escolha uma massa">
+                        <datalist id="lista-massa">
+                            <option value="Massa comum">
+                            <option value="Massa integral">
+                            <option value="Massa temperada">
+                        </datalist>
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Borda</label>
+                        <input list="lista-borda" name="email" placeholder="Escolha uma borda">
+                        <datalist id="lista-borda">
+                            <option value="Catupiry">
+                            <option value="Chocolate">
+                        </datalist>
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Sabores</label>
+                        <input list="lista-sabores" name="senha" placeholder="Escolha até 3 sabores">
+                        <datalist id="lista-sabores">
+                            <option value="4 Queijos">
+                            <option value="Frango com Catupiry">
+                            <option value="Calabresa">
+                            <option value="Lombinho">
+                            <option value="Filé com Cheddar">
+                            <option value="Portuguesa">
+                            <option value="Margherita">
+                        </datalist>
+                    </div>
+                    <button class="btn-login">ADICIONAR + SABORES</button>
+                    <button class="btn-login">CADASTRO</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
